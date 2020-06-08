@@ -191,11 +191,19 @@ footer p.copyright {
         font-size: 12px;
     }
 
-    footer .footer-links {
-        display: block;
+    footer .footer-links div {
+        width: 45%;
     }
 
-    footer .footer-links div {
-        width: 80%;
-    }
+    footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
 }
