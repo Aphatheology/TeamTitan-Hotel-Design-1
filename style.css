@@ -187,15 +187,29 @@ footer p.copyright {
         margin: 0px auto 15px;
     }
 
+    .topmost-header div h3 {
+        font-size: 1rem;
+    }
+
+    header nav li {
+        margin: 10px;
+    }
+
     header nav li a {
         font-size: 12px;
+    }
+
+    footer {
+        padding: 25px;
     }
 
     footer .footer-links {
         display: block;
     }
 
-    footer .footer-links div {
-        width: 80%;
+    footer .footer-links .main-links {
+        width: 40%;
+        display: inline-block;
+
     }
 }
